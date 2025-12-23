@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "C:\\Users\\redmn\\Downloads\\OGL\\Lecture4\\OpenGL.SharedModule\\x64\\Release\\Temp\\SharedModule.obj",
+            "outputs": [
+                "C:\\Users\\redmn\\Downloads\\OGL\\Lecture4\\OpenGL.SharedModule\\x64\\Release\\Temp\\SharedModule.ixx.ifc.dt.module.json",
+                "C:\\Users\\redmn\\Downloads\\OGL\\Lecture4\\OpenGL.SharedModule\\x64\\Release\\Temp\\SharedModule.ixx.ifc.dt.d.json",
+                "C:\\Users\\redmn\\Downloads\\OGL\\Lecture4\\OpenGL.SharedModule\\x64\\Release\\Temp\\SharedModule.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "SharedModule",
+                    "source-path": "c:\\users\\redmn\\downloads\\ogl\\lecture4\\opengl.sharedmodule\\src\\abstraction\\sharedmodule.ixx",
+                    "is-interface": true
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

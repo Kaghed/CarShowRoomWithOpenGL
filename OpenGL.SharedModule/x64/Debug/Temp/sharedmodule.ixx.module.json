@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "E:\\Aghed\\Hope Path\\college\\Car showroom\\OpenGL.SharedModule\\x64\\Debug\\Temp\\SharedModule.ixx.obj",
+            "outputs": [
+                "E:\\Aghed\\Hope Path\\college\\Car showroom\\OpenGL.SharedModule\\x64\\Debug\\OpenGL.SharedModule.pdb",
+                "E:\\Aghed\\Hope Path\\college\\Car showroom\\OpenGL.SharedModule\\x64\\Debug\\Temp\\",
+                "E:\\Aghed\\Hope Path\\college\\Car showroom\\OpenGL.SharedModule\\x64\\Debug\\Temp\\SharedModule.ixx.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "SharedModule",
+                    "source-path": "e:\\aghed\\hope path\\college\\car showroom\\opengl.sharedmodule\\src\\abstraction\\sharedmodule.ixx",
+                    "is-interface": true
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

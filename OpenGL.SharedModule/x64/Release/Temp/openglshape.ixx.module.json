@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "C:\\Users\\redmn\\Downloads\\OGL\\Lecture4\\OpenGL.SharedModule\\x64\\Release\\Temp\\OpenGlShape.ixx.obj",
+            "outputs": [
+                "C:\\Users\\redmn\\Downloads\\OGL\\Lecture4\\OpenGL.SharedModule\\x64\\Release\\OpenGL.SharedModule.pdb",
+                "C:\\Users\\redmn\\Downloads\\OGL\\Lecture4\\OpenGL.SharedModule\\x64\\Release\\Temp\\",
+                "C:\\Users\\redmn\\Downloads\\OGL\\Lecture4\\OpenGL.SharedModule\\x64\\Release\\Temp\\OpenGlShape.ixx.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "OpenGlShape",
+                    "source-path": "c:\\users\\redmn\\downloads\\ogl\\lecture4\\opengl.sharedmodule\\src\\abstraction\\openglshape.ixx",
+                    "is-interface": true
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

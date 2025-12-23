@@ -1,0 +1,26 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "C:\\Users\\redmn\\Downloads\\OGL\\Lecture4\\OpenGL.SharedModule\\x64\\Release\\Temp\\Drawer.ixx.obj",
+            "outputs": [
+                "C:\\Users\\redmn\\Downloads\\OGL\\Lecture4\\OpenGL.SharedModule\\x64\\Release\\OpenGL.SharedModule.pdb",
+                "C:\\Users\\redmn\\Downloads\\OGL\\Lecture4\\OpenGL.SharedModule\\x64\\Release\\Temp\\",
+                "C:\\Users\\redmn\\Downloads\\OGL\\Lecture4\\OpenGL.SharedModule\\x64\\Release\\Temp\\Drawer.ixx.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "Drawer",
+                    "source-path": "c:\\users\\redmn\\downloads\\ogl\\lecture4\\opengl.sharedmodule\\src\\abstraction\\drawer.ixx",
+                    "is-interface": true
+                }
+            ],
+            "requires": [
+                {
+                    "logical-name": "OpenGlShape"
+                }
+            ]
+        }
+    ]
+}

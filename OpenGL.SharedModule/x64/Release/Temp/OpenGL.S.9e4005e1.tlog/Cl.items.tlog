@@ -1,0 +1,17 @@
+C:\Users\redmn\Downloads\OGL\Lecture4\OpenGL.SharedModule\src\ImGuiFileDialog.cpp;C:\Users\redmn\Downloads\OGL\Lecture4\OpenGL.SharedModule\x64\Release\Temp\ImGuiFileDialog.obj
+C:\Users\redmn\Downloads\OGL\Lecture4\OpenGL.SharedModule\src\abstraction\OpenGlShape.ixx;C:\Users\redmn\Downloads\OGL\Lecture4\OpenGL.SharedModule\x64\Release\Temp\OpenGlShape.ixx.obj
+C:\Users\redmn\Downloads\OGL\Lecture4\OpenGL.SharedModule\src\abstraction\Drawer.ixx;C:\Users\redmn\Downloads\OGL\Lecture4\OpenGL.SharedModule\x64\Release\Temp\Drawer.ixx.obj
+C:\Users\redmn\Downloads\OGL\Lecture4\OpenGL.SharedModule\src\abstraction\SharedModule.ixx;C:\Users\redmn\Downloads\OGL\Lecture4\OpenGL.SharedModule\x64\Release\Temp\SharedModule.ixx.obj
+C:\Users\redmn\Downloads\OGL\Lecture4\OpenGL.SharedModule\src\glad.c;C:\Users\redmn\Downloads\OGL\Lecture4\OpenGL.SharedModule\x64\Release\Temp\glad.obj
+C:\Users\redmn\Downloads\OGL\Lecture4\OpenGL.SharedModule\src\imgui\imgui.cpp;C:\Users\redmn\Downloads\OGL\Lecture4\OpenGL.SharedModule\x64\Release\Temp\imgui.obj
+C:\Users\redmn\Downloads\OGL\Lecture4\OpenGL.SharedModule\src\imgui\imgui_demo.cpp;C:\Users\redmn\Downloads\OGL\Lecture4\OpenGL.SharedModule\x64\Release\Temp\imgui_demo.obj
+C:\Users\redmn\Downloads\OGL\Lecture4\OpenGL.SharedModule\src\imgui\imgui_draw.cpp;C:\Users\redmn\Downloads\OGL\Lecture4\OpenGL.SharedModule\x64\Release\Temp\imgui_draw.obj
+C:\Users\redmn\Downloads\OGL\Lecture4\OpenGL.SharedModule\src\imgui\imgui_impl_glfw.cpp;C:\Users\redmn\Downloads\OGL\Lecture4\OpenGL.SharedModule\x64\Release\Temp\imgui_impl_glfw.obj
+C:\Users\redmn\Downloads\OGL\Lecture4\OpenGL.SharedModule\src\imgui\imgui_impl_opengl3.cpp;C:\Users\redmn\Downloads\OGL\Lecture4\OpenGL.SharedModule\x64\Release\Temp\imgui_impl_opengl3.obj
+C:\Users\redmn\Downloads\OGL\Lecture4\OpenGL.SharedModule\src\imgui\imgui_stdlib.cpp;C:\Users\redmn\Downloads\OGL\Lecture4\OpenGL.SharedModule\x64\Release\Temp\imgui_stdlib.obj
+C:\Users\redmn\Downloads\OGL\Lecture4\OpenGL.SharedModule\src\imgui\imgui_tables.cpp;C:\Users\redmn\Downloads\OGL\Lecture4\OpenGL.SharedModule\x64\Release\Temp\imgui_tables.obj
+C:\Users\redmn\Downloads\OGL\Lecture4\OpenGL.SharedModule\src\imgui\imgui_widgets.cpp;C:\Users\redmn\Downloads\OGL\Lecture4\OpenGL.SharedModule\x64\Release\Temp\imgui_widgets.obj
+C:\Users\redmn\Downloads\OGL\Lecture4\OpenGL.SharedModule\src\implementation\Drawer.cpp;C:\Users\redmn\Downloads\OGL\Lecture4\OpenGL.SharedModule\x64\Release\Temp\Drawer.obj
+C:\Users\redmn\Downloads\OGL\Lecture4\OpenGL.SharedModule\src\implementation\OpenGlShape.cpp;C:\Users\redmn\Downloads\OGL\Lecture4\OpenGL.SharedModule\x64\Release\Temp\OpenGlShape.obj
+C:\Users\redmn\Downloads\OGL\Lecture4\OpenGL.SharedModule\src\implementation\SharedModule.cpp;C:\Users\redmn\Downloads\OGL\Lecture4\OpenGL.SharedModule\x64\Release\Temp\SharedModule.obj
+C:\Users\redmn\Downloads\OGL\Lecture4\OpenGL.SharedModule\src\stb_image.cpp;C:\Users\redmn\Downloads\OGL\Lecture4\OpenGL.SharedModule\x64\Release\Temp\stb_image.obj

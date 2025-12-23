@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\aghed\\hope path\\college\\car showroom\\opengl.sharedmodule\\src\\abstraction\\drawer.ixx",
+        "ProvidedModule": "Drawer",
+        "Includes": [],
+        "ImportedModules": [
+            {
+                "Name": "OpenGlShape",
+                "BMI": "E:\\Aghed\\Hope Path\\college\\Car showroom\\OpenGL.SharedModule\\x64\\Debug\\Temp\\OpenGlShape.ixx.ifc"
+            }
+        ],
+        "ImportedHeaderUnits": []
+    }
+}
