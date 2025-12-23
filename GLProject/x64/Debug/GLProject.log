@@ -1,5 +1,10 @@
-﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(523,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
-C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(524,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
-  Scanning sources for module dependencies...
+﻿  glad.c
   Main.cpp
-  GLProject.vcxproj -> E:\Aghed\Hope Path\college\Car showroom\x64\Debug\Lecture6.exe
+  Cube.cpp
+  Polygon.cpp
+E:\Aghed\Hope Path\college\CarShowRoomWithOpenGL\GLProject\tools\Polygon.cpp(41,48): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+E:\Aghed\Hope Path\college\CarShowRoomWithOpenGL\GLProject\tools\Polygon.cpp(98,51): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+E:\Aghed\Hope Path\college\CarShowRoomWithOpenGL\GLProject\tools\Polygon.cpp(156,48): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+  Generating Code...
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  GLProject.vcxproj -> E:\Aghed\Hope Path\college\CarShowRoomWithOpenGL\x64\Debug\Lecture6.exe
