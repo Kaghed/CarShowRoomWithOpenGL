@@ -1,11 +1,7 @@
-﻿  glad.c
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(523,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(524,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  Scanning sources for module dependencies...
   Main.cpp
-  Cube.cpp
-  Polygon.cpp
-C:\Users\Lenovo\source\repos\CarShowRoomWithOpenGL\GLProject\tools\Polygon.cpp(41,48): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
-C:\Users\Lenovo\source\repos\CarShowRoomWithOpenGL\GLProject\tools\Polygon.cpp(98,51): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
-C:\Users\Lenovo\source\repos\CarShowRoomWithOpenGL\GLProject\tools\Polygon.cpp(156,48): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
-  Generating Code...
 LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
   GLProject.vcxproj -> C:\Users\Lenovo\source\repos\CarShowRoomWithOpenGL\x64\Debug\Lecture6.exe
   'pwsh.exe' is not recognized as an internal or external command,
