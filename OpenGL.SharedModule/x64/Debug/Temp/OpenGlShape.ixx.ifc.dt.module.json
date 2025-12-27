@@ -3,16 +3,16 @@
     "revision": 0,
     "rules": [
         {
-            "primary-output": "E:\\Aghed\\Hope Path\\college\\CarShowRoomWithOpenGL\\OpenGL.SharedModule\\x64\\Debug\\Temp\\OpenGlShape.obj",
+            "primary-output": "C:\\Users\\Lenovo\\Source\\Repos\\CarShowRoomWithOpenGL\\OpenGL.SharedModule\\x64\\Debug\\Temp\\OpenGlShape.obj",
             "outputs": [
-                "E:\\Aghed\\Hope Path\\college\\CarShowRoomWithOpenGL\\OpenGL.SharedModule\\x64\\Debug\\Temp\\OpenGlShape.ixx.ifc.dt.module.json",
-                "E:\\Aghed\\Hope Path\\college\\CarShowRoomWithOpenGL\\OpenGL.SharedModule\\x64\\Debug\\Temp\\OpenGlShape.ixx.ifc.dt.d.json",
-                "E:\\Aghed\\Hope Path\\college\\CarShowRoomWithOpenGL\\OpenGL.SharedModule\\x64\\Debug\\Temp\\OpenGlShape.ifc"
+                "C:\\Users\\Lenovo\\Source\\Repos\\CarShowRoomWithOpenGL\\OpenGL.SharedModule\\x64\\Debug\\Temp\\OpenGlShape.ixx.ifc.dt.module.json",
+                "C:\\Users\\Lenovo\\Source\\Repos\\CarShowRoomWithOpenGL\\OpenGL.SharedModule\\x64\\Debug\\Temp\\OpenGlShape.ixx.ifc.dt.d.json",
+                "C:\\Users\\Lenovo\\Source\\Repos\\CarShowRoomWithOpenGL\\OpenGL.SharedModule\\x64\\Debug\\Temp\\OpenGlShape.ifc"
             ],
             "provides": [
                 {
                     "logical-name": "OpenGlShape",
-                    "source-path": "e:\\aghed\\hope path\\college\\carshowroomwithopengl\\opengl.sharedmodule\\src\\abstraction\\openglshape.ixx",
+                    "source-path": "c:\\users\\lenovo\\source\\repos\\carshowroomwithopengl\\opengl.sharedmodule\\src\\abstraction\\openglshape.ixx",
                     "is-interface": true
                 }
             ],

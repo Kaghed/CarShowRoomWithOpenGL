@@ -3,16 +3,16 @@
     "revision": 0,
     "rules": [
         {
-            "primary-output": "E:\\Aghed\\Hope Path\\college\\CarShowRoomWithOpenGL\\OpenGL.SharedModule\\x64\\Debug\\Temp\\SharedModule.ixx.obj",
+            "primary-output": "C:\\Users\\Lenovo\\Source\\Repos\\CarShowRoomWithOpenGL\\OpenGL.SharedModule\\x64\\Debug\\Temp\\SharedModule.ixx.obj",
             "outputs": [
-                "E:\\Aghed\\Hope Path\\college\\CarShowRoomWithOpenGL\\OpenGL.SharedModule\\x64\\Debug\\OpenGL.SharedModule.pdb",
-                "E:\\Aghed\\Hope Path\\college\\CarShowRoomWithOpenGL\\OpenGL.SharedModule\\x64\\Debug\\Temp\\",
-                "E:\\Aghed\\Hope Path\\college\\CarShowRoomWithOpenGL\\OpenGL.SharedModule\\x64\\Debug\\Temp\\SharedModule.ixx.ifc"
+                "C:\\Users\\Lenovo\\Source\\Repos\\CarShowRoomWithOpenGL\\OpenGL.SharedModule\\x64\\Debug\\OpenGL.SharedModule.pdb",
+                "C:\\Users\\Lenovo\\Source\\Repos\\CarShowRoomWithOpenGL\\OpenGL.SharedModule\\x64\\Debug\\Temp\\",
+                "C:\\Users\\Lenovo\\Source\\Repos\\CarShowRoomWithOpenGL\\OpenGL.SharedModule\\x64\\Debug\\Temp\\SharedModule.ixx.ifc"
             ],
             "provides": [
                 {
                     "logical-name": "SharedModule",
-                    "source-path": "e:\\aghed\\hope path\\college\\carshowroomwithopengl\\opengl.sharedmodule\\src\\abstraction\\sharedmodule.ixx",
+                    "source-path": "c:\\users\\lenovo\\source\\repos\\carshowroomwithopengl\\opengl.sharedmodule\\src\\abstraction\\sharedmodule.ixx",
                     "is-interface": true
                 }
             ],
