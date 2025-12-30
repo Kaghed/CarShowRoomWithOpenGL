@@ -1,22 +1,9 @@
 {
-    "version": 1,
-    "revision": 0,
-    "rules": [
-        {
-            "primary-output": "C:\\Users\\Lenovo\\Source\\Repos\\CarShowRoomWithOpenGL\\OpenGL.SharedModule\\x64\\Debug\\Temp\\SharedModule.ixx.obj",
-            "outputs": [
-                "C:\\Users\\Lenovo\\Source\\Repos\\CarShowRoomWithOpenGL\\OpenGL.SharedModule\\x64\\Debug\\OpenGL.SharedModule.pdb",
-                "C:\\Users\\Lenovo\\Source\\Repos\\CarShowRoomWithOpenGL\\OpenGL.SharedModule\\x64\\Debug\\Temp\\",
-                "C:\\Users\\Lenovo\\Source\\Repos\\CarShowRoomWithOpenGL\\OpenGL.SharedModule\\x64\\Debug\\Temp\\SharedModule.ixx.ifc"
-            ],
-            "provides": [
-                {
-                    "logical-name": "SharedModule",
-                    "source-path": "c:\\users\\lenovo\\source\\repos\\carshowroomwithopengl\\opengl.sharedmodule\\src\\abstraction\\sharedmodule.ixx",
-                    "is-interface": true
-                }
-            ],
-            "requires": []
-        }
-    ]
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\asus\\onedrive\\desktop\\carshowroomwithopengl\\opengl.sharedmodule\\src\\abstraction\\sharedmodule.ixx",
+        "ProvidedModule": "SharedModule",
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
 }
