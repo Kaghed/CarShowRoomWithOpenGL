@@ -51,8 +51,8 @@ void Gallery::door(float& doorSliding,bool isClosed,glm::mat4& view, glm::mat4& 
         }
 
     }
-    doorRight.draw(glm::vec3(-200 - doorSliding, 550.0f, 7180.0f), view, projection);
-    doorLeft.draw(glm::vec3(200 + doorSliding, 550.0f, 7180.0f), view, projection);
+    doorRight.draw(glm::vec3(-200 - doorSliding, 550.0f, 7200.0f), view, projection);
+    doorLeft.draw(glm::vec3(200 + doorSliding, 550.0f, 7200.0f), view, projection);
 
 
 }
