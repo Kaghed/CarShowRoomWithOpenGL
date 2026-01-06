@@ -1,6 +1,4 @@
 ﻿#include "Ground.h"
-#include "stb_image.h"
-#include <iostream>
 
 using namespace std; 
 
@@ -8,14 +6,15 @@ Ground::Ground()
     : shader("./shaders/vs/LightSource2.vs","./shaders/fs/LightSource2.fs")
 {
     float vertices[] = {
-        -500.0f, 0.0f, -500.0f,  0.0f,   0.0f,
-         500.0f, 0.0f, -500.0f, 100.0f,   0.0f,
-         500.0f, 0.0f,  500.0f, 100.0f, 100.0f,
+    -20000.0f, 0.0f, -20000.0f,    0.0f,    0.0f,
+     20000.0f, 0.0f, -20000.0f,  400.0f,    0.0f,
+     20000.0f, 0.0f,  20000.0f,  400.0f,  400.0f,
 
-         500.0f, 0.0f,  500.0f, 100.0f, 100.0f,
-        -500.0f, 0.0f,  500.0f,  0.0f, 100.0f,
-        -500.0f, 0.0f, -500.0f,  0.0f,   0.0f
+     20000.0f, 0.0f,  20000.0f,  400.0f,  400.0f,
+    -20000.0f, 0.0f,  20000.0f,    0.0f,  400.0f,
+    -20000.0f, 0.0f, -20000.0f,    0.0f,    0.0f
     };
+
 
     glGenVertexArrays(1, &VAO);
     glGenBuffers(1, &VBO); 
@@ -34,7 +33,7 @@ Ground::Ground()
     glBindTexture(GL_TEXTURE_2D, texture);
 
     int width, height, nrChannels;
-    unsigned char* data = stbi_load("textures/download.jpg", &width, &height, &nrChannels, 0);
+    unsigned char* data = stbi_load("textures/asphalt.jpg", &width, &height, &nrChannels, 0);
 
     if (data) {
        
@@ -57,7 +56,7 @@ Ground::Ground()
     }
 }
 
-void Ground::draw(const glm::mat4& view, const glm::mat4& projection)
+void Ground::draw( glm::mat4& view,  glm::mat4& projection)
 {
     shader.use();
 

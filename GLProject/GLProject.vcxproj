@@ -129,8 +129,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\OpenGL.SharedModule\src\glad.c" />
+    <ClCompile Include="Gallery.cpp" />
+    <ClCompile Include="GalleryFace.cpp" />
     <ClCompile Include="Ground.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="RectangularPrism.cpp" />
     <ClCompile Include="Sky.cpp" />
     <ClCompile Include="tools\Cube.cpp" />
     <ClCompile Include="tools\Polygon.cpp" />
@@ -141,7 +144,10 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Gallery.h" />
+    <ClInclude Include="GalleryFace.h" />
     <ClInclude Include="Ground.h" />
+    <ClInclude Include="RectangularPrism.h" />
     <ClInclude Include="Sky.h" />
     <ClInclude Include="tools\Cube.h" />
     <ClInclude Include="tools\Polygon.h" />

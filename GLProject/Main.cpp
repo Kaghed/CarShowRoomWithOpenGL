@@ -14,11 +14,13 @@ using namespace glm;
 
 #include "Sky.h"
 #include "Ground.h"
+#include "Gallery.h";
+#include"RectangularPrism.h"
 
-int SCR_WIDTH = 1280;
-int SCR_HEIGHT = 720;
+int SCR_WIDTH = 1800;
+int SCR_HEIGHT = 800;
 
-Camera camera(vec3(0.0f, 5.0f, 15.0f));
+Camera camera(vec3(0.0f, 400.0f, 15.0f));
 float lastX = SCR_WIDTH / 2.0f;
 float lastY = SCR_HEIGHT / 2.0f;
 bool firstMouse = true;
@@ -31,10 +33,17 @@ void mouse_callback(GLFWwindow* window, double xposIn, double yposIn);
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 
 
+float doorSliding = 0.0f;
+bool isClosed=false; 
+
+
+
+
 
 int main() {
    
 
+    
     glfwInit(); 
     GLFWwindow* window = glfwCreateWindow(SCR_WIDTH, SCR_HEIGHT, "its clearly a fucking window", NULL, NULL); 
     glfwMakeContextCurrent(window); 
@@ -44,11 +53,14 @@ int main() {
     }
     glEnable(GL_DEPTH_TEST); 
     
-
+    
 
     Ground ground;
     Sky sky;
+   Gallery gallery; 
+   
 
+    
 
     while (!glfwWindowShouldClose(window)) {
         float currentFrame = static_cast<float>(glfwGetTime());
@@ -60,11 +72,15 @@ int main() {
         glClearColor(0.1f, 0.1f, 0.1f, 1.0f);
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
-        glm::mat4 projection = glm::perspective(glm::radians(camera.Zoom), (float)SCR_WIDTH / SCR_HEIGHT, 0.1f, 1000.0f);
+        glm::mat4 projection = glm::perspective(glm::radians(camera.Zoom), (float)SCR_WIDTH / SCR_HEIGHT, 0.1f, 100000000.0f);
         glm::mat4 view = camera.GetViewMatrix();
 
         ground.draw(view, projection);
         sky.draw(view, projection);
+
+       gallery.draw(view, projection,doorSliding,isClosed);
+    
+        
 
 
         glfwSetFramebufferSizeCallback(window, framebuffer_size_callback);
@@ -88,6 +104,19 @@ void processInput(GLFWwindow* window) {
     if (glfwGetKey(window, GLFW_KEY_S) == GLFW_PRESS) camera.ProcessKeyboard(BACKWARD, deltaTime);
     if (glfwGetKey(window, GLFW_KEY_A) == GLFW_PRESS) camera.ProcessKeyboard(LEFT, deltaTime);
     if (glfwGetKey(window, GLFW_KEY_D) == GLFW_PRESS) camera.ProcessKeyboard(RIGHT, deltaTime);
+    if (glfwGetKey(window, GLFW_KEY_O) == GLFW_PRESS);
+    if (glfwGetKey(window, GLFW_KEY_E) == GLFW_PRESS) {
+        if (isClosed == false) {
+            isClosed = true;
+        }
+    }
+        if (glfwGetKey(window, GLFW_KEY_Q) == GLFW_PRESS) {
+            if (isClosed == true) {
+                isClosed = false;
+            }
+        }
+
+
 }
 
 void mouse_callback(GLFWwindow* window, double xposIn, double yposIn) {

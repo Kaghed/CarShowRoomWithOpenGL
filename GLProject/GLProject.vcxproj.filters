@@ -9,14 +9,14 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Resource Files\Source Files">
+    <Filter Include="Header Files\Source Files">
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
-    <Filter Include="Resource Files\Source Files\shaders">
+    <Filter Include="Header Files\Source Files\shaders">
       <UniqueIdentifier>{1aa8c4c8-ca26-4a7e-9410-dccc69e6f2d1}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Resource Files\Source Files\tools">
+    <Filter Include="Header Files\Source Files\tools">
       <UniqueIdentifier>{912016a9-d223-4d42-ba34-2487005453ce}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
@@ -24,48 +24,66 @@
     <ClCompile Include="..\OpenGL.SharedModule\src\glad.c">
       <Filter>Resource Files</Filter>
     </ClCompile>
-    <ClCompile Include="Main.cpp">
-      <Filter>Resource Files\Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="tools\Cube.cpp">
-      <Filter>Resource Files\Source Files\tools</Filter>
+      <Filter>Header Files\Source Files\tools</Filter>
     </ClCompile>
     <ClCompile Include="tools\Polygon.cpp">
-      <Filter>Resource Files\Source Files\tools</Filter>
+      <Filter>Header Files\Source Files\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Gallery.cpp">
+      <Filter>Resource Files</Filter>
     </ClCompile>
     <ClCompile Include="Sky.cpp">
-      <Filter>Resource Files\Source Files</Filter>
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RectangularPrism.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Resource Files</Filter>
     </ClCompile>
     <ClCompile Include="Ground.cpp">
-      <Filter>Resource Files\Source Files</Filter>
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GalleryFace.cpp">
+      <Filter>Resource Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="RectangularPrism.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="tools\Polygon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Ground.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GalleryFace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gallery.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="tools\Cube.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Ground.h">
-      <Filter>Resource Files\Source Files</Filter>
-    </ClInclude>
     <ClInclude Include="Sky.h">
-      <Filter>Resource Files\Source Files</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="shaders\fs\L6.fs">
-      <Filter>Resource Files\Source Files\shaders</Filter>
+      <Filter>Header Files\Source Files\shaders</Filter>
     </None>
     <None Include="shaders\fs\LightSource2.fs">
-      <Filter>Resource Files\Source Files\shaders</Filter>
+      <Filter>Header Files\Source Files\shaders</Filter>
     </None>
     <None Include="shaders\vs\L6.vs">
-      <Filter>Resource Files\Source Files\shaders</Filter>
+      <Filter>Header Files\Source Files\shaders</Filter>
     </None>
     <None Include="shaders\vs\LightSource2.vs">
-      <Filter>Resource Files\Source Files\shaders</Filter>
+      <Filter>Header Files\Source Files\shaders</Filter>
     </None>
   </ItemGroup>
 </Project>
