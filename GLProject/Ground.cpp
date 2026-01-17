@@ -6,13 +6,13 @@ Ground::Ground()
     : shader("./shaders/vs/LightSource2.vs","./shaders/fs/LightSource2.fs")
 {
     float vertices[] = {
-    -20000.0f, 0.0f, -20000.0f,    0.0f,    0.0f,
-     20000.0f, 0.0f, -20000.0f,  400.0f,    0.0f,
-     20000.0f, 0.0f,  20000.0f,  400.0f,  400.0f,
+    -25000.0f, 0.0f, -25000.0f,    0.0f,    0.0f,
+     25000.0f, 0.0f, -25000.0f,  100.0f,    0.0f,
+     25000.0f, 0.0f,  25000.0f,  100.0f,  100.0f,
 
-     20000.0f, 0.0f,  20000.0f,  400.0f,  400.0f,
-    -20000.0f, 0.0f,  20000.0f,    0.0f,  400.0f,
-    -20000.0f, 0.0f, -20000.0f,    0.0f,    0.0f
+     25000.0f, 0.0f,  25000.0f,  100.0f,  100.0f,
+    -25000.0f, 0.0f,  25000.0f,    0.0f,  100.0f,
+    -25000.0f, 0.0f, -25000.0f,    0.0f,    0.0f
     };
 
 
@@ -64,7 +64,7 @@ void Ground::draw( glm::mat4& view,  glm::mat4& projection)
     shader.setMat4("model", model);
     shader.setMat4("view", view);
     shader.setMat4("projection", projection);
-    shader.setVec4("objectColor", glm::vec4(1.0f));
+    shader.setVec4("objectColor", glm::vec4(1.7f));
 
     glActiveTexture(GL_TEXTURE0);
     glBindTexture(GL_TEXTURE_2D, texture);

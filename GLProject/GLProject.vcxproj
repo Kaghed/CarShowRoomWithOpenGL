@@ -145,7 +145,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Gallery.h" />
-    <ClInclude Include="GalleryFace.h" />
     <ClInclude Include="Ground.h" />
     <ClInclude Include="RectangularPrism.h" />
     <ClInclude Include="Sky.h" />
@@ -153,10 +152,18 @@
     <ClInclude Include="tools\Polygon.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="shaders\fs\L4.fs" />
     <None Include="shaders\fs\L6.fs" />
     <None Include="shaders\fs\LightSource2.fs" />
+    <None Include="shaders\fs\Model.fs" />
+    <None Include="shaders\vs\L4.vs" />
     <None Include="shaders\vs\L6.vs" />
     <None Include="shaders\vs\LightSource2.vs" />
+    <None Include="shaders\vs\Model.vs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="shaders\fs\Model2.fs" />
+    <Text Include="shaders\vs\Model2.vs" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

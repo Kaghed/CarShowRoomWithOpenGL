@@ -59,9 +59,6 @@
     <ClInclude Include="Ground.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="GalleryFace.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Gallery.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -85,5 +82,25 @@
     <None Include="shaders\vs\LightSource2.vs">
       <Filter>Header Files\Source Files\shaders</Filter>
     </None>
+    <None Include="shaders\vs\L4.vs">
+      <Filter>Header Files\Source Files\shaders</Filter>
+    </None>
+    <None Include="shaders\vs\Model.vs">
+      <Filter>Header Files\Source Files\shaders</Filter>
+    </None>
+    <None Include="shaders\fs\L4.fs">
+      <Filter>Header Files\Source Files\shaders</Filter>
+    </None>
+    <None Include="shaders\fs\Model.fs">
+      <Filter>Header Files\Source Files\shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="shaders\fs\Model2.fs">
+      <Filter>Header Files\Source Files\shaders</Filter>
+    </Text>
+    <Text Include="shaders\vs\Model2.vs">
+      <Filter>Header Files\Source Files\shaders</Filter>
+    </Text>
   </ItemGroup>
 </Project>

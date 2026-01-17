@@ -1,18 +1,15 @@
-#ifndef MODEL_H
+﻿#ifndef MODEL_H
 #define MODEL_H
 
 #include <glad/glad.h> 
-
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
 #include <stb_image.h>
 #include <assimp/Importer.hpp>
 #include <assimp/scene.h>
 #include <assimp/postprocess.h>
-
 #include <learnopengl/mesh.h>
 #include <learnopengl/shader.h>
-
 #include <string>
 #include <fstream>
 #include <sstream>
@@ -28,7 +25,7 @@ class Model
 public:
     // model data 
     vector<Texture> textures_loaded;	// stores all the textures loaded so far, optimization to make sure textures aren't loaded more than once.
-    vector<Mesh>    meshes;
+    vector<Mesh>  meshes;
     string directory;
     bool gammaCorrection;
 

@@ -5,6 +5,7 @@
 #include <glm/gtc/type_ptr.hpp>
 #include <learnopengl/shader_m.h>
 #include <learnopengl/camera.h>
+#include<learnopengl/model.h>
 #include "stb_image.h"
 #include <iostream>
 
@@ -34,35 +35,43 @@ void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 
 
 float doorSliding = 0.0f;
-bool isClosed=false; 
+bool isClosed = false;
 
 
 
 
 
 int main() {
-   
 
-    
-    glfwInit(); 
-    GLFWwindow* window = glfwCreateWindow(SCR_WIDTH, SCR_HEIGHT, "its clearly a fucking window", NULL, NULL); 
-    glfwMakeContextCurrent(window); 
+
+
+    glfwInit();
+    GLFWwindow* window = glfwCreateWindow(SCR_WIDTH, SCR_HEIGHT, "its clearly a fucking window", NULL, NULL);
+    glfwMakeContextCurrent(window);
     if (!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress)) {
         cout << "failed to downlad glad " << endl;
         return -1;
     }
-    glEnable(GL_DEPTH_TEST); 
-    
-    
+    glEnable(GL_DEPTH_TEST);
+
+
 
     Ground ground;
     Sky sky;
-   Gallery gallery; 
-   
+    Gallery gallery;
 
-    
+    Shader modelShader("shaders/vs/Model.vs", "shaders/fs/Model.fs");
+    stbi_set_flip_vertically_on_load(false);
+    Model ourModel("models/parking/scene.gltf");
+    Model fountain("models/fountain/scene.gltf"); 
+    Model streetLight("models/street_light/scene.gltf");
+
+
+
+
 
     while (!glfwWindowShouldClose(window)) {
+        modelShader.use(); 
         float currentFrame = static_cast<float>(glfwGetTime());
         deltaTime = currentFrame - lastFrame;
         lastFrame = currentFrame;
@@ -72,15 +81,50 @@ int main() {
         glClearColor(0.1f, 0.1f, 0.1f, 1.0f);
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
-        glm::mat4 projection = glm::perspective(glm::radians(camera.Zoom), (float)SCR_WIDTH / SCR_HEIGHT, 0.1f, 100000000.0f);
-        glm::mat4 view = camera.GetViewMatrix();
+        mat4 projection = glm::perspective(glm::radians(camera.Zoom), (float)SCR_WIDTH / SCR_HEIGHT, 0.1f, 1000000.0f);
+        mat4 view = camera.GetViewMatrix();
 
         ground.draw(view, projection);
         sky.draw(view, projection);
 
-       gallery.draw(view, projection,doorSliding,isClosed);
-    
+        mat4 model = mat4(1.0f);
+        model = translate(model, vec3(600.0f, 55.0f, 13500.0f));
+        model = rotate(model, radians(180.0f), vec3(0.0f, 1.0f, 0.0f));
+        model = scale(model, vec3(200.0f, 250.0f, 150.0f));
+        modelShader.setMat4("model", model);
+        ourModel.Draw(modelShader);
+
+        model = mat4(1.0f);
+        model = translate(model, vec3(0.0f, 25.0f, 10000.0f));
+        model = rotate(model, radians(180.0f), vec3(0.0f, 1.0f, 0.0f));
+        model = scale(model, vec3(1.5f, 1.50f, 1.5f));
+        modelShader.setMat4("model", model);
+        fountain.Draw(modelShader);
+
+        model = mat4(1.0f);
+        model = translate(model, vec3(600.0f, 30.0f, 7700.0f));
+        model = rotate(model, radians(-90.0f), vec3(1.0f, 0.0f, 0.0f));
+        model = scale(model, vec3(80.5f, 80.50f, 80.5f));
+        modelShader.setMat4("model", model);
+        streetLight.Draw(modelShader);
+
+        model = mat4(1.0f);
+        model = translate(model, vec3(-800.0, 30.0f, 7700.0f));
+        model = rotate(model, radians(-90.0f), vec3(1.0f, 0.0f, 0.0f));
+        model = scale(model, vec3(80.5f, 80.50f, 80.5f));
+        modelShader.setMat4("model", model);
+        streetLight.Draw(modelShader);
+
+        gallery.draw(view, projection, doorSliding, isClosed);
+
+
+
+ 
+
         
+
+
+
 
 
         glfwSetFramebufferSizeCallback(window, framebuffer_size_callback);
@@ -110,11 +154,11 @@ void processInput(GLFWwindow* window) {
             isClosed = true;
         }
     }
-        if (glfwGetKey(window, GLFW_KEY_Q) == GLFW_PRESS) {
-            if (isClosed == true) {
-                isClosed = false;
-            }
+    if (glfwGetKey(window, GLFW_KEY_Q) == GLFW_PRESS) {
+        if (isClosed == true) {
+            isClosed = false;
         }
+    }
 
 
 }

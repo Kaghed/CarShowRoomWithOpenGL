@@ -1,0 +1,11 @@
+Model Information:
+* title:	Fountain
+* source:	https://sketchfab.com/3d-models/fountain-1e2234e51a46400bbd3a71afd9c2b750
+* author:	ZedFox (https://sketchfab.com/ZedFox)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Fountain" (https://sketchfab.com/3d-models/fountain-1e2234e51a46400bbd3a71afd9c2b750) by ZedFox (https://sketchfab.com/ZedFox) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

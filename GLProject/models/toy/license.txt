@@ -1,0 +1,8 @@
+Model Information:
+* title:	Bumper car
+* source:	https://sketchfab.com/3d-models/bumper-car-4b277e7d413648e8a1e3192b88a3f7d4
+* author:	assetfactory (https://sketchfab.com/assetfactory)
+
+Model License:
+* license type:	SKETCHFAB Standard (https://sketchfab.com/licenses)
+* requirements:	Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works
