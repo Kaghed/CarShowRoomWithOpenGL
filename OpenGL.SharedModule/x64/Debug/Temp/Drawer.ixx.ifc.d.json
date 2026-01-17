@@ -1,13 +1,13 @@
 {
-    "Version": "1.1",
+    "Version": "1.2",
     "Data": {
-        "Source": "c:\\users\\asus\\onedrive\\desktop\\carshowroomwithopengl\\opengl.sharedmodule\\src\\abstraction\\drawer.ixx",
+        "Source": "e:\\aghed\\carshowroomwithopengl\\opengl.sharedmodule\\src\\abstraction\\drawer.ixx",
         "ProvidedModule": "Drawer",
         "Includes": [],
         "ImportedModules": [
             {
                 "Name": "OpenGlShape",
-                "BMI": "C:\\Users\\ASUS\\OneDrive\\Desktop\\CarShowRoomWithOpenGL\\OpenGL.SharedModule\\x64\\Debug\\Temp\\OpenGlShape.ixx.ifc"
+                "BMI": "E:\\Aghed\\CarShowRoomWithOpenGL\\OpenGL.SharedModule\\x64\\Debug\\Temp\\OpenGlShape.ixx.ifc"
             }
         ],
         "ImportedHeaderUnits": []

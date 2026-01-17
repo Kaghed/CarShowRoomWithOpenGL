@@ -129,6 +129,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\OpenGL.SharedModule\src\glad.c" />
+    <ClCompile Include="AghedShowRoom.cpp" />
     <ClCompile Include="Gallery.cpp" />
     <ClCompile Include="GalleryFace.cpp" />
     <ClCompile Include="Ground.cpp" />
@@ -144,6 +145,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AghedShowRoom.h" />
     <ClInclude Include="Gallery.h" />
     <ClInclude Include="Ground.h" />
     <ClInclude Include="RectangularPrism.h" />
@@ -153,6 +155,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="shaders\fs\L4.fs" />
+    <None Include="shaders\fs\L5-Model.fs" />
     <None Include="shaders\fs\L6.fs" />
     <None Include="shaders\fs\LightSource2.fs" />
     <None Include="shaders\fs\Model.fs" />

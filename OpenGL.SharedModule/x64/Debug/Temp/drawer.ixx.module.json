@@ -1,11 +1,26 @@
 {
-    "Version": "1.1",
-    "Data": {
-        "Source": "c:\\users\\asus\\onedrive\\desktop\\carshowroomwithopengl\\opengl.sharedmodule\\src\\abstraction\\drawer.ixx",
-        "ProvidedModule": "Drawer",
-        "ImportedModules": [
-            "OpenGlShape"
-        ],
-        "ImportedHeaderUnits": []
-    }
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "E:\\Aghed\\CarShowRoomWithOpenGL\\OpenGL.SharedModule\\x64\\Debug\\Temp\\Drawer.ixx.obj",
+            "outputs": [
+                "E:\\Aghed\\CarShowRoomWithOpenGL\\OpenGL.SharedModule\\x64\\Debug\\OpenGL.SharedModule.pdb",
+                "E:\\Aghed\\CarShowRoomWithOpenGL\\OpenGL.SharedModule\\x64\\Debug\\Temp\\",
+                "E:\\Aghed\\CarShowRoomWithOpenGL\\OpenGL.SharedModule\\x64\\Debug\\Temp\\Drawer.ixx.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "Drawer",
+                    "source-path": "e:\\aghed\\carshowroomwithopengl\\opengl.sharedmodule\\src\\abstraction\\drawer.ixx",
+                    "is-interface": true
+                }
+            ],
+            "requires": [
+                {
+                    "logical-name": "OpenGlShape"
+                }
+            ]
+        }
+    ]
 }

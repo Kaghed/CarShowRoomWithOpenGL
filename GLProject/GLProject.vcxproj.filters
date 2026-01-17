@@ -48,6 +48,9 @@
     <ClCompile Include="GalleryFace.cpp">
       <Filter>Resource Files</Filter>
     </ClCompile>
+    <ClCompile Include="AghedShowRoom.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="RectangularPrism.h">
@@ -67,6 +70,9 @@
     </ClInclude>
     <ClInclude Include="Sky.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AghedShowRoom.h">
+      <Filter>Resource Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -92,6 +98,9 @@
       <Filter>Header Files\Source Files\shaders</Filter>
     </None>
     <None Include="shaders\fs\Model.fs">
+      <Filter>Header Files\Source Files\shaders</Filter>
+    </None>
+    <None Include="shaders\fs\L5-Model.fs">
       <Filter>Header Files\Source Files\shaders</Filter>
     </None>
   </ItemGroup>

@@ -1,0 +1,11 @@
+Model Information:
+* title:	Indonesia Ecolin Bus
+* source:	https://sketchfab.com/3d-models/indonesia-ecolin-bus-08d4c1b35f82404e9f6b50e970baadb9
+* author:	Aditya Graphical (https://sketchfab.com/Adityakm)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Indonesia Ecolin Bus" (https://sketchfab.com/3d-models/indonesia-ecolin-bus-08d4c1b35f82404e9f6b50e970baadb9) by Aditya Graphical (https://sketchfab.com/Adityakm) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

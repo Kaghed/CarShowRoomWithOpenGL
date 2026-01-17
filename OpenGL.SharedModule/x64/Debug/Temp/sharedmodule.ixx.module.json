@@ -1,9 +1,22 @@
 {
-    "Version": "1.1",
-    "Data": {
-        "Source": "c:\\users\\asus\\onedrive\\desktop\\carshowroomwithopengl\\opengl.sharedmodule\\src\\abstraction\\sharedmodule.ixx",
-        "ProvidedModule": "SharedModule",
-        "ImportedModules": [],
-        "ImportedHeaderUnits": []
-    }
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "E:\\Aghed\\CarShowRoomWithOpenGL\\OpenGL.SharedModule\\x64\\Debug\\Temp\\SharedModule.ixx.obj",
+            "outputs": [
+                "E:\\Aghed\\CarShowRoomWithOpenGL\\OpenGL.SharedModule\\x64\\Debug\\OpenGL.SharedModule.pdb",
+                "E:\\Aghed\\CarShowRoomWithOpenGL\\OpenGL.SharedModule\\x64\\Debug\\Temp\\",
+                "E:\\Aghed\\CarShowRoomWithOpenGL\\OpenGL.SharedModule\\x64\\Debug\\Temp\\SharedModule.ixx.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "SharedModule",
+                    "source-path": "e:\\aghed\\carshowroomwithopengl\\opengl.sharedmodule\\src\\abstraction\\sharedmodule.ixx",
+                    "is-interface": true
+                }
+            ],
+            "requires": []
+        }
+    ]
 }

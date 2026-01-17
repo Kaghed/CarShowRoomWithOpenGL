@@ -1,0 +1,8 @@
+Model Information:
+* title:	Stage
+* source:	https://sketchfab.com/3d-models/stage-3cf977165ad74304ade083ba860da65e
+* author:	Gonsaku (https://sketchfab.com/Gonsaku)
+
+Model License:
+* license type:	SKETCHFAB Standard (https://sketchfab.com/licenses)
+* requirements:	Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works
